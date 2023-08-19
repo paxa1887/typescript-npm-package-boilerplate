@@ -4,7 +4,9 @@
   "description": "The typescript-npm-package-boilerplate is a comprehensive and well-structured starting point for creating TypeScript-based npm packages. This boilerplate provides a foundation for building high-quality, maintainable, and easy-to-use npm packages using the TypeScript programming language.",
   "scripts": {
     "build": "tsup ./src",
-    "test": "jest --config ./.jestrc.json"
+    "test": "jest --config ./.jestrc.json && npm run lint",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix"
   },
   "files": [
     "dist",
@@ -32,6 +34,9 @@
     "@babel/preset-env": "^7.22.10",
     "@babel/preset-typescript": "^7.22.5",
     "@types/jest": "^29.5.3",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
     "ts-jest": "^29.1.1",
     "tsup": "^7.2.0",
     "typescript": "^5.1.6"
