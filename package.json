@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsup ./src",
     "test": "jest --config ./.jestrc.json && npm run lint",
+    "coverage": "jest --collect-coverage",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix"
   },
