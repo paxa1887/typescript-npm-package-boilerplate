@@ -1,0 +1,15 @@
+{
+  "name": "typescript-npm-package-boilerplate",
+  "version": "1.0.0",
+  "description": "The typescript-npm-package-boilerplate is a comprehensive and well-structured starting point for creating TypeScript-based npm packages. This boilerplate provides a foundation for building high-quality, maintainable, and easy-to-use npm packages using the TypeScript programming language.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm-package",
+    "boilerplate",
+    "typescript"
+  ],
+  "author": "Pavlo Vashchenko",
+  "license": "MIT"
+}
