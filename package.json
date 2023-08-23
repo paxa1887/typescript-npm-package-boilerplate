@@ -7,7 +7,8 @@
     "test": "jest --coverage --config ./.jestrc.json && npm run lint",
     "coverage": "jest --collect-coverage",
     "lint": "eslint . --ext .ts",
-    "lint-and-fix": "eslint . --ext .ts --fix"
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "prettier-fix": "prettier . --write"
   },
   "files": [
     "dist",
@@ -38,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",
     "eslint": "^8.47.0",
+    "prettier": "3.0.2",
     "ts-jest": "^29.1.1",
     "tsup": "^7.2.0",
     "typescript": "^5.1.6"
