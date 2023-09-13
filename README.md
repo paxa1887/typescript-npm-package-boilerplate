@@ -1,7 +1,8 @@
 # typescript-npm-package-boilerplate
 
 ![Workflow](https://github.com/paxa1887/typescript-npm-package-boilerplate/actions/workflows/main.yml/badge.svg)
-[![codecov](https://codecov.io/gh/paxa1887/typescript-npm-package-boilerplate/graph/badge.svg?token=5GMOQM4EZP)](https://codecov.io/gh/paxa1887/typescript-npm-package-boilerplate)
+[![codecov](https://codecov.io/gh/paxa1887/typescript-npm-package-boilerplate/graph/badge.svg?token=5GMOQM4EZP)](https://codecov.io/gh/paxa1887/typescript-npm-package-boilerplate) [![NPM Monthly Downloads](https://img.shields.io/npm/dm/typescript-npm-package-boilerplate.svg?style=flat)](https://www.npmjs.com/package/typescript-npm-package-boilerplate)
+[![Install Size](https://packagephobia.com/badge?p=typescript-npm-package-boilerplate)](https://packagephobia.com/result?p=typescript-npm-package-boilerplate) [![Known Vulnerabilities](https://snyk.io/test/github/paxa1887/typescript-npm-package-boilerplate/badge.svg)](https://snyk.io/test/github/paxa1887/typescript-npm-package-boilerplate)
 
 The typescript-npm-package-boilerplate is a comprehensive and well-structured starting point for creating TypeScript-based npm packages. This boilerplate provides a foundation for building high-quality, maintainable, and easy-to-use npm packages using the TypeScript programming language.
 
